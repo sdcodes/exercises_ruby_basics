@@ -1,14 +1,17 @@
-say_hello = true
-while say_hello
-  puts 'Hello!'
-  say_hello = false 
-end 
-
-say_hello = true
+hello = true
 count = 0
 
-while say_hello
-  puts "hello!"
-  count += 1
-say_hello = false if count == 5
+while hello
+  puts "hello"
+count += 1
+hello == false if count >= 5
+end 
+
+# or
+
+say_hello = 0 
+
+while say_hello <= 5
+  puts "hello"
+  say_hello += 1
 end 

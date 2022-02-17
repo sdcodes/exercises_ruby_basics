@@ -1,7 +1,7 @@
-names = ['Sally', 'Joe', 'Lisa', 'Henry']
+names = ['Sally', 'Joe', 'Lisa', 'Henry'] 
 
-loop do
+loop do 
   puts names.shift
-  break if names.shift == nil 
-end
-
+  break if names.empty?
+  end 
+ 

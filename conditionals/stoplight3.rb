@@ -3,6 +3,5 @@ stoplight = ['green', 'yellow', 'red'].sample
 case stoplight
 when "green"  then puts "go!"
 when "yellow" then puts "slow down!"
-else          then puts "stop!"
+when "red"    then puts "stop!"
 end 
-  

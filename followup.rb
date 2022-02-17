@@ -1,8 +1,8 @@
 balance = 0
 
 january = {
-  income: [1200, 75],
-  expenses: [650, 140, 33.2, 100, 26.9, 78]
+  income: [ 1200, 75 ],
+  expenses: [ 650, 140, 33.2, 100, 26.9, 78 ]
 }
 
 february = {
@@ -20,12 +20,11 @@ def calculate_balance(month)
   minus = month[:expenses].sum
 
   plus - minus
-end 
-
-
- [january, february, march].each do |month|
-  balance += calculate_balance(month)
-  
 end
 
-puts balance 
+[january, february, march].each do |month|
+ 
+balance += calculate_balance(month)
+end
+
+puts balance

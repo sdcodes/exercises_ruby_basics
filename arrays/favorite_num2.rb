@@ -1,4 +1,9 @@
-
 favorites = [['Dave', 7], ['Miranda', 3], ['Jason', 11]]
 
-p favorites.flatten
+puts favorites.flatten
+
+#OR
+
+flat = favorites.flatten
+
+puts flat

@@ -1,9 +1,9 @@
 status = ['awake', 'tired'].sample
 
-alert = if status == "awake"
-  "be productive"
-else
-  "go to sleep!"
-end 
-
-puts alert
+sleep_alert = if status == "awake"
+                puts "Be productive"
+              else 
+                puts "go to sleep!"
+              end 
+              
+ puts sleep_alert

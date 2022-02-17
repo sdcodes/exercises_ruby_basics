@@ -6,3 +6,5 @@ end
 
 puts meal 
 
+#prints dinner and breakfast
+
